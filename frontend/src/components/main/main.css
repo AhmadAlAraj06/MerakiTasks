@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    height: 60px;
+    width: 101.2%;
+    margin-left: -1.4vh;
+    margin-top: -1.1vh;
+    background-color: #01b2ee;
+    position: fixed;
+  }
+  
+  .logo {
+    width: 180px;
+    height: auto;
+    margin-left: 5%;
+    cursor: pointer;
+  }
+  .powerd {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 70%;
+  }
+  .subscribe{
+    margin-top: -5vh;
+    cursor: pointer;
+    margin-left: 77%;
+    color: white;
+  }
+  .sub{
+    cursor: pointer;
+    margin-top: -3.7vh;
+    color: white;
+    margin-left: 79.5%;
+  }
+  .down{
+    cursor: pointer;
+    margin-top: -3.2vh;
+    color: white;
+    margin-left: 74%;
+  }
+  .font{
+    margin-top: -4vh;
+    cursor: pointer;
+    color: white;
+    margin-left: 72%;
+  }
+  .cart{
+    cursor: pointer;
+    margin-top: -4vh;
+    color: white;
+    margin-left: 68.5%;
+  }
+  .heart{
+    cursor: pointer;
+    margin-top: -4vh;
+    color: white;
+    margin-left: 64.5%;
+  }
+  .vl {
+      border-left: 1px solid rgb(255, 255, 255);
+    margin-left: 85.5%;
+    height: 45px;
+    margin-top: -6vh;
+    }
+    .drop{
+      --bs-scroll-height: 100px;
+    }
+  @media only screen and (max-width: 1070px) {
+    /* For mobile phones: */
+    [class*="powerd"] {
+      width: 100%;
+    }
+  }
+  
