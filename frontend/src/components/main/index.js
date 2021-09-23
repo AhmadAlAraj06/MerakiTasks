@@ -4,6 +4,7 @@ import logo from "./aa.png";
 import powerd from "./as.png";
 
 const Header = () => {
+	
   return (
     <div className="App">
       {/* header 1 */}
@@ -24,21 +25,33 @@ const Header = () => {
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
           </svg>
         </div>
+
         <div className="down">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-chevron-down"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-            />
-          </svg>
+          <div class="dropdown">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-down"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+            <div class="dropdown-content">
+              <a href="#">My Account</a>
+              <a href="#">Gifts</a>
+              <a href="#">Profile</a>
+              <a href="#">My Subscriptions</a>
+              <a href="#">My Purchases</a>
+              <a href="#">Login</a>
+            </div>
+          </div>
         </div>
+
         <div className="font">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -77,9 +90,58 @@ const Header = () => {
           </svg>
         </div>
 
+        <div className="geo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            fill="currentColor"
+            class="bi bi-geo-alt"
+            viewBox="0 0 16 16"
+          >
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+          </svg>
+        </div>
+
+        <div className="down2">
+          <div class="dropdown">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-down"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+            <div class="dropdown-content">
+              <a href="#">Auckland</a>
+              <a href="#">Waikato</a>
+              <a href="#">Wellington</a>
+              <a href="#">Northland</a>
+              <a href="#">Manawatu - Wanganui</a>
+              <a href="#">Tauranga</a>
+              <a href="#">Rotorua - Taupo</a>
+              <a href="#">Hawkes Bay</a>
+              <a href="#">Christchurch</a>
+              <a href="#">Taranaki</a>
+              <a href="#">Nelson - Marlborough</a>
+              <a href="#">Queenstown - Wanaka</a>
+              <a href="#">Dunedin - Invercargill</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="auckland">Auckland</div>
         <div class="sub">Subscribe</div>
       </div>
-  
+      {/* header 2 */}
+      <div class="header2"></div>
     </div>
   );
 };
