@@ -1,3 +1,7 @@
+/* i have start coding with wrong way i have code hardcode and i understand the mistake that i doit after i finish the half of the project 
+but i have write easy code above the hardcode and i have comitit and write above <easycode> </easycode> and above hardcode <hardcode> </hardcode>
+  */
+
 * {
   box-sizing: border-box;
 }
@@ -14,6 +18,22 @@ body {
   background-color: #01b2ee;
   position: fixed;
 }
+
+/* <easycode1> */
+
+/* .header22{
+  display: flex;
+  margin-left: 60%;
+  color: white;
+  cursor: pointer;
+  margin-top: -4vh;
+  justify-content: space-between;
+  width: 52vh;
+} */
+
+/* </easycode1> */
+
+/* <hardcode1> */
 
 .logo {
   width: 180px;
@@ -87,6 +107,8 @@ body {
   height: 45px;
   margin-top: -6vh;
 }
+/* </hardcode1> */
+
 .drop {
   --bs-scroll-height: 100px;
 }
@@ -158,6 +180,20 @@ body {
   bottom: 0;
   position: fixed;
 }
+
+/* <easycode2> */
+
+/* .headersown{
+display:flex;
+margin-left:2%;
+justify-content:space-between;
+cursor:pointer;
+color:white;
+} */
+
+/* </easycode2> */
+
+/* <hardcode2> */
 .home {
   margin-left: 8%;
   cursor: pointer;
@@ -196,6 +232,8 @@ body {
 .Search222 {
   margin-left: -1.5vh;
 }
+/* </hardcode2> */
+
 /* img title */
 .imgtt {
   margin-left: 5%;
@@ -245,23 +283,31 @@ body {
 /* newsletter */
 
 .newsletter {
-  background: #fafafa;
+  background: white;
   padding-top: 26px;
   margin-left: 5%;
   width: 89%;
   padding-bottom: 26px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 .bbb_newsletter_form {
-  position: relative;
-  width: 40%;
+  width: 25%;
   margin-top: -8vh;
   margin-left: 58%;
 }
+
 .bbb_newsletter_input {
   width: 100%;
   height: 50px;
-  background: #ffffff;
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+  padding-left: 25px;
+  font-size: 16px;
+  outline: none;
+  color: #0e8ce4;
+}
+.bbb_newsletter_input1 {
+  width: 65%;
+  height: 50px;
   border: solid 1px #e5e5e5;
   border-radius: 5px;
   padding-left: 25px;
@@ -270,9 +316,7 @@ body {
   color: #0e8ce4;
 }
 .bbb_newsletter_button {
-  position: absolute;
-  top: 0;
-  right: 0;
+  margin-top: -8vh;
   width: 153px;
   height: 50px;
   box-shadow: 0 0 8px 0 rgb(1 178 238 / 50%);
@@ -290,10 +334,306 @@ body {
   color: #01b2ee;
   margin-left: 6vh;
 }
+.txtbuttons {
+  display: flex;
+}
+
 @media only screen and (max-width: 1260px) {
   /* For mobile phones: */
-  [class*="bbb_newsletter_content clearfix"] {
+  [class*="txtbuttons"] {
     margin-top: 11vh;
     margin-left: -128%;
   }
+}
+
+/* posts */
+
+.post1 {
+  width: 33%;
+  height: 50vh;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.post2 {
+  width: 33%;
+  height: 50vh;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.info {
+  width: 100%;
+  height: 190px;
+  background-color: white;
+  margin-top: -3vh;
+}
+.h2h {
+  color: #4f5864;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 3vh;
+}
+.price {
+  line-height: 1.2;
+  text-align: right;
+  color: #1eb3ec;
+  cursor: pointer;
+  font-size: 30px;
+  margin-right: 3vh;
+}
+.bought {
+  color: #92a2ad;
+  margin-bottom: 3vh;
+  margin-top: -4vh;
+  margin-left: 3vh;
+}
+.img1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.img1:hover {
+  content: url("./camema2.png");
+}
+.img2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.img2:hover {
+  content: url("./3sfour2.png");
+}
+.img3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.img3:hover {
+  content: url("./post33.png");
+}
+.img4{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.img4:hover {
+  content: url("./post44.png");
+}
+.img5{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.img5:hover {
+  content: url("./post55.png");
+}
+.img6{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.img6:hover {
+  content: url("./post66.png");
+}
+.img7{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.img7:hover {
+  content: url("./post77.png");
+}
+.img8{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.img8:hover {
+  content: url("./post88.png");
+}
+.img9{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.img9:hover {
+  content: url("./post99.png");
+}
+.img10{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.img10:hover {
+  content: url("./post1010.png");
+}
+.fll {
+  display: flex;
+}
+.fll2 {
+  display: flex;
+  margin-left: 4%;
+  width: 94%;
+}
+
+@media only screen and (max-width: 1070px) {
+  /* For mobile phones: */
+  [class*="post1"],
+  [class*="post2"] {
+    width: 50%; 
+  }
+}
+@media only screen and (max-width: 660px) {
+  /* For mobile phones: */
+  [class*="fll"] {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  /* For mobile phones: */
+  [class*="post1"],
+  [class*="post2"]   {
+    width: 75%;
+    margin-left: 13%;
+  }
+}
+@media only screen and (max-width: 660px) {
+  /* For mobile phones: */
+  [class*="post1"] {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  [class*="newsletter1"] {
+    margin-top: 18%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  [class*="newsletter1"],
+  [class*="post1"] {
+    margin-top: -0.5vh;
+  }
+}
+@media only screen and (max-width: 400px) {
+  [class*="main-footer__copyright"] {
+    display: grid !important;
+    justify-content: flex-start !important;
+  }
+}
+
+/* featured */
+.h1feature {
+  color: #4f5864;
+  cursor: pointer;
+}
+.h1feature:hover {
+  color: #01b2ee;
+}
+.view {
+  border-radius: 5px;
+  background-color: #01b2ee;
+  color: #fff;
+  line-height: 35px;
+  height: 35px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 15px;
+  cursor: pointer;
+  margin-top: 3.3vh;
+}
+.view:hover {
+  background-color: #05c0ff;
+}
+.featured {
+  display: flex;
+  margin-left: 5%;
+}
+.dcd {
+  margin-top: 1vh;
+}
+
+/* footer1 */
+.footer11 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 20px;
+  margin: auto;
+  background-color: white;
+  color: #4f5864;
+  width: 100.5%;
+}
+.svgg {
+  margin-left: 3vh;
+  cursor: pointer;
+  display: initial;
+}
+
+.svgg1 {
+  margin-left: -3vh;
+}
+.download {
+  background-color: #01b2ee;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 16px 16px 16px;
+  box-shadow: 0 0 8px 0 rgb(1 178 238 / 50%);
+  cursor: pointer;
+}
+.download:hover {
+  background-color: #05c0ff;
+}
+.footer111 {
+  display: block;
+}
+.footer112 {
+  display: grid;
+}
+.a:hover {
+  color: #0e8ce4;
+  cursor: pointer;
+}
+.a {
+  color: #4f5864;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* footer2 */
+
+.main-footer__copyright {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #dce3ed;
+  background-color: #fff;
+}
+
+.imgggg {
+  color: #1eb3ec;
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.aaaa {
+  color: #0e8ce4;
+  cursor: pointer;
+  padding-right: 10px;
 }
