@@ -1,3 +1,9 @@
+/* i have start coding with wrong way i have code hardcode and i understand the mistake that i doit after i finish the half of the project 
+  */
+
+
+
+
 import React from "react";
 import "./main.css";
 import logo from "./aa.png";
