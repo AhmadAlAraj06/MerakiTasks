@@ -1,8 +1,5 @@
-/* i have start coding with wrong way i have code hardcode and i understand the mistake that i doit after i finish the half of the project 
-  */
-
-
-
+/* i have start coding with wrong way i have code hardcode and i understand the mistake that i doit after i finish the half of the project
+ */
 
 import React from "react";
 import "./main.css";
@@ -19,6 +16,18 @@ import post7 from "./post7.png";
 import post8 from "./post8.png";
 import post9 from "./post9.png";
 import post10 from "./post10.png";
+import post11 from "./post11.png";
+import post12 from "./post12.png";
+import post13 from "./post13.png";
+import post14 from "./post14.png";
+import post15 from "./post15.png";
+import post16 from "./post16.png";
+import post17 from "./post17.png";
+import post18 from "./post18.png";
+import post19 from "./post19.png";
+import post20 from "./post20.png";
+import post21 from "./post21.png";
+import post22 from "./post22.png";
 
 const Header = () => {
   return (
@@ -281,7 +290,7 @@ const Header = () => {
               <div>from</div>
               <div>$499</div>
             </div>
-            <div class="bought">42 bought</div>
+            <div class="bought">90 bought</div>
           </div>
         </div>
         <br />
@@ -301,14 +310,12 @@ const Header = () => {
               <div>from</div>
               <div>$9</div>
             </div>
-            <div class="bought">42 bought</div>
+            <div class="bought">61 bought</div>
           </div>
         </div>
       </div>
-
       <br />
       <br />
-
       {/* newsletter*/}
       <div class="newsletter1">
         <div class="newsletter">
@@ -330,9 +337,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-
       {/* featured */}
-
       <div className="featured">
         <h1 className="h1feature">Featured Auckland deals </h1>
         <a className="view">
@@ -352,22 +357,21 @@ const Header = () => {
           </svg>
         </a>
       </div>
-
       {/* posts fetured */}
       <div className="fll2">
         {/* post 3*/}
 
-      <div className="post2">
-      <img className="img3" src={post3} />
+        <div className="post2">
+          <img className="img3" src={post3} />
           <div className="info">
             <br />
-            <h3 className="h2h">Kiwi Spotting Tour & Stay for Two</h3>
+            <h3 className="h2h">Dental Service Treatment</h3>
             <br />
             <div class="price">
               <div>from</div>
-              <div>$499</div>
+              <div>$35</div>
             </div>
-            <div class="bought">42 bought</div>
+            <div class="bought">2 bought</div>
           </div>
         </div>
         <br />
@@ -380,36 +384,30 @@ const Header = () => {
           <div className="info">
             <br />
 
-            <h3 className="h2h">Mesh Reusable Face Mask</h3>
+            <h3 className="h2h">Five-Pack Reusable Face Masks</h3>
 
             <br />
             <div class="price">
               <div>from</div>
-              <div>$9</div>
+              <div>$15</div>
             </div>
-            <div class="bought">42 bought</div>
+            <div class="bought">2205 bought</div>
           </div>
-          </div>
-          <br />
-        <br />
-        <br />     <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        </div>
+
         {/* post 5 */}
-          
-      <div className="post2">
+
+        <div className="post2">
           <img className="img5" src={post5} />
           <div className="info">
             <br />
-            <h3 className="h2h">Kiwi Spotting Tour & Stay for Two</h3>
+            <h3 className="h2h">Inclusive Hanmer Springs Getaway</h3>
             <br />
             <div class="price">
               <div>from</div>
-              <div>$499</div>
+              <div>$189</div>
             </div>
-            <div class="bought">42 bought</div>
+            <div class="bought">291 bought</div>
           </div>
         </div>
         <br />
@@ -422,37 +420,36 @@ const Header = () => {
           <div className="info">
             <br />
 
-            <h3 className="h2h">Mesh Reusable Face Mask</h3>
+            <h3 className="h2h">Premium Hairdressing Packages</h3>
 
             <br />
             <div class="price">
               <div>from</div>
-              <div>$9</div>
+              <div>$139</div>
             </div>
-            <div class="bought">42 bought</div>
+            <div class="bought">140 bought</div>
           </div>
-          </div>
-          
-        </div>    
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-          <div className="fll2">
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className="fll2">
         {/* post 7*/}
 
-      <div className="post2">
-      <img className="img7" src={post7} />
+        <div className="post2">
+          <img className="img7" src={post7} />
           <div className="info">
             <br />
-            <h3 className="h2h">Kiwi Spotting Tour & Stay for Two</h3>
+            <h3 className="h2h">HelloFresh Special Offer</h3>
             <br />
             <div class="price">
               <div>from</div>
-              <div>$499</div>
+              <div>$89.89</div>
             </div>
-            <div class="bought">42 bought</div>
+            <div class="bought">188 bought</div>
           </div>
         </div>
         <br />
@@ -465,36 +462,30 @@ const Header = () => {
           <div className="info">
             <br />
 
-            <h3 className="h2h">Mesh Reusable Face Mask</h3>
+            <h3 className="h2h">Central Queenstown Stay for Two People</h3>
 
             <br />
             <div class="price">
               <div>from</div>
-              <div>$9</div>
+              <div>$179</div>
             </div>
-            <div class="bought">42 bought</div>
+            <div class="bought">66 bought</div>
           </div>
-          </div>
-          <br />
-        <br />
-        <br />     <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        </div>
+
         {/* post 9 */}
-          
-      <div className="post2">
+
+        <div className="post2">
           <img className="img9" src={post9} />
           <div className="info">
             <br />
-            <h3 className="h2h">Kiwi Spotting Tour & Stay for Two</h3>
+            <h3 className="h2h">Gutter Cleaning Service</h3>
             <br />
             <div class="price">
               <div>from</div>
-              <div>$499</div>
+              <div>$89</div>
             </div>
-            <div class="bought">42 bought</div>
+            <div class="bought">25 bought</div>
           </div>
         </div>
         <br />
@@ -507,6 +498,106 @@ const Header = () => {
           <div className="info">
             <br />
 
+            <h3 className="h2h">HOMASA Full Body Massage Chair</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$2,200</div>
+            </div>
+            <div class="bought">4 bought</div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br /> 
+      <br />
+      <br />
+      <br />
+      {/* Escapes  */}
+      <div className="featured">
+        <h1 className="h1feature">Escapes </h1>
+        <a className="view">
+          View More{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-chevron-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </a>
+      </div>
+      {/* posts Escapes  */}
+      <div className="fll2">
+        {/* post 11*/}
+
+        <div className="post2">
+          <img className="img11" src={post11} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Atura Wellington Hotel Stay for Two</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$145</div>
+            </div>
+            <div class="bought">27 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 12 */}
+        <div className="post1">
+          <img className="img12" src={post12} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Spring Campervan Travel Package</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$199</div>
+            </div>
+            <div class="bought">39 bought</div>
+          </div>
+        </div>
+
+        {/* post 13 */}
+
+        <div className="post2">
+          <img className="img13" src={post13} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Hokitika Getaway for Two People</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$149</div>
+            </div>
+            <div class="bought">18 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 14 */}
+        <div className="post1">
+          <img className="img14" src={post14} />
+          <div className="info">
+            <br />
+
             <h3 className="h2h">Mesh Reusable Face Mask</h3>
 
             <br />
@@ -516,12 +607,208 @@ const Header = () => {
             </div>
             <div class="bought">42 bought</div>
           </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br /> 
+      <br />
+      <br />
+      <br />
+      {/* Activities, Events & Outdoors  */}
+      <div className="featured">
+        <h1 className="h1feature">Activities, Events & Outdoors </h1>
+        <a className="view">
+          View More{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-chevron-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </a>
+      </div>
+      {/* posts Activities, Events & Outdoors   */}
+      <div className="fll2">
+        {/* post 15*/}
+
+        <div className="post2">
+          <img className="img15" src={post15} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Social Painting Class</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$39</div>
+            </div>
+            <div class="bought">1 bought</div>
           </div>
-          
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 16 */}
+        <div className="post1">
+          <img className="img16" src={post16} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">White Water Rafting incl...</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$75</div>
+            </div>
+            <div class="bought">49 bought</div>
+          </div>
         </div>
 
-  
+        {/* post 17 */}
 
+        <div className="post2">
+          <img className="img17" src={post17} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Hokitika Getaway for Two People</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$149</div>
+            </div>
+            <div class="bought">18 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 18 */}
+        <div className="post1">
+          <img className="img18" src={post18} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Entry to Parakai Springs</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$15</div>
+            </div>
+            <div class="bought">49 bought</div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br /> 
+      <br />
+      <br />
+      <br />
+      {/* Store  */}
+      <div className="featured">
+        <h1 className="h1feature">Store </h1>
+        <a className="view">
+          View More{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-chevron-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </a>
+      </div>
+      {/* posts Activities, Events & Outdoors   */}
+      <div className="fll2">
+        {/* post 19*/}
+
+        <div className="post2">
+          <img className="img19" src={post19} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Outdoor Furniture Sofa Set</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$895</div>
+            </div>
+            <div class="bought">1 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 20 */}
+        <div className="post1">
+          <img className="img20" src={post20} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Ergonomic Gaming Chair with Footrest</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$185</div>
+            </div>
+            <div class="bought">2 bought</div>
+          </div>
+        </div>
+
+        {/* post 21 */}
+
+        <div className="post2">
+          <img className="img21" src={post21} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">11.6” Chromebook HP G5 16GB</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$249</div>
+            </div>
+            <div class="bought">1 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 22 */}
+        <div className="post1">
+          <img className="img22" src={post22} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Refurbished iPhone XS Range</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$629</div>
+            </div>
+            <div class="bought">2 bought</div>
+          </div>
+        </div>
+      </div>
       {/* footer1 */}
       <br />
       <br />
@@ -621,9 +908,7 @@ const Header = () => {
           <button class="bbb_newsletter_button">Subscribe</button>{" "}
         </div>
       </div>
-
       {/* footer2 */}
-
       <div class="main-footer__copyright">
         <a class="main-footer__copyright-content" className="aaaa">
           Privacy Policy
@@ -640,7 +925,6 @@ const Header = () => {
           <img src="//new-cdn.grabone.co.nz/static/img/icon/powered_by_nzme_long.d08e62aa63ff.png" />
         </a>
       </div>
-
       <br />
       <br />
     </div>
