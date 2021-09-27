@@ -28,6 +28,30 @@ import post19 from "./post19.png";
 import post20 from "./post20.png";
 import post21 from "./post21.png";
 import post22 from "./post22.png";
+import post23 from "./post23.png";
+import post24 from "./post24.png";
+import post25 from "./post25.png";
+import post26 from "./post26.png";
+import post27 from "./post27.png";
+import post28 from "./post28.png";
+import post29 from "./post29.png";
+import post30 from "./post30.png";
+import post31 from "./post31.png";
+import post32 from "./post32.png";
+import post33 from "./post3e3.png";
+import post34 from "./post3e4.png";
+import postt35 from "./postt35.png";
+import post36 from "./postt36.png";
+import post37 from "./postt37.png";
+import post38 from "./postt38.png";
+import post39 from "./postt39.png";
+import post40 from "./postt40.png";
+import post41 from "./postt41.png";
+import post42 from "./postt42.png";
+import post43 from "./postt43.png";
+import post44 from "./postt44.png";
+import post45 from "./postt45.png";
+import post46 from "./postt46.png";
 
 const Header = () => {
   return (
@@ -433,6 +457,66 @@ const Header = () => {
       </div>
       <br />
       <br />
+      <br /> 
+      <br />
+      <br />
+      <br />
+      {/* Collections     */}
+      <div className="featured">
+        <h1 className="h1feature">Collections   </h1>
+        <a className="view">
+          View More{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-chevron-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </a>
+      </div>
+      {/* posts Collections  */}
+      <div className="fll2">
+        {/* post 43*/}
+
+        <div className="post2">
+          <img className="img43" src={post43} />
+     
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 44 */}
+        <div className="post1">
+          <img className="img44" src={post44} />
+      
+        </div>
+
+        {/* post 45 */}
+
+        <div className="post2">
+          <img className="img45" src={post45} />
+     
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 46 */}
+        <div className="post1">
+          <img className="img46" src={post46} />
+     
+        </div>
+      </div>
+      <br />
+      <br />
       <br />
       <br />
       <br />
@@ -462,7 +546,7 @@ const Header = () => {
           <div className="info">
             <br />
 
-            <h3 className="h2h">Central Queenstown Stay for Two People</h3>
+            <h3 className="h2h">Central Queenstown Stay for 2 People</h3>
 
             <br />
             <div class="price">
@@ -735,7 +819,7 @@ const Header = () => {
           </svg>
         </a>
       </div>
-      {/* posts Activities, Events & Outdoors   */}
+      {/* posts Store   */}
       <div className="fll2">
         {/* post 19*/}
 
@@ -762,7 +846,7 @@ const Header = () => {
           <div className="info">
             <br />
 
-            <h3 className="h2h">Ergonomic Gaming Chair with Footrest</h3>
+            <h3 className="h2h">Ergonomic Gaming Chair</h3>
 
             <br />
             <div class="price">
@@ -809,6 +893,521 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <br /> 
+      <br />
+      <br />
+      <br />
+      {/* Restaurants, Bars, Cafes   */}
+      <div className="featured">
+        <h1 className="h1feature">Restaurants, Bars, Cafes  </h1>
+        <a className="view">
+          View More{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-chevron-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </a>
+      </div>
+      {/* posts Restaurants, Bars, Cafes    */}
+      <div className="fll2">
+        {/* post 23*/}
+
+        <div className="post2">
+          <img className="img23" src={post23} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Gourmet Burger & Drink Combo</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$14</div>
+            </div>
+            <div class="bought">65 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 24 */}
+        <div className="post1">
+          <img className="img24" src={post24} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">One Drink & Doughnut</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$6.5</div>
+            </div>
+            <div class="bought">571 bought</div>
+          </div>
+        </div>
+
+        {/* post 25 */}
+
+        <div className="post2">
+          <img className="img25" src={post25} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Organic Thai Meals</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$28</div>
+            </div>
+            <div class="bought">13 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 26 */}
+        <div className="post1">
+          <img className="img26" src={post26} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Five-Course European Dining...</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$69</div>
+            </div>
+            <div class="bought">32 bought</div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br /> 
+      <br />
+      <br />
+      <br />
+      {/* Beauty, Massage & Spa    */}
+      <div className="featured">
+        <h1 className="h1feature">Beauty, Massage & Spa   </h1>
+        <a className="view">
+          View More{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-chevron-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </a>
+      </div>
+      {/* posts Beauty, Massage & Spa   */}
+      <div className="fll2">
+        {/* post 27*/}
+
+        <div className="post2">
+          <img className="img27" src={post27} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Facial Peel Treatment Package</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$59</div>
+            </div>
+            <div class="bought">17 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 28 */}
+        <div className="post1">
+          <img className="img28" src={post28} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Bespoke Massage Gun 3.0</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$219</div>
+            </div>
+            <div class="bought">14 bought</div>
+          </div>
+        </div>
+
+        {/* post 29 */}
+
+        <div className="post2">
+          <img className="img29" src={post29} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">90-Minute Pamper Package</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$95</div>
+            </div>
+            <div class="bought">1 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 30 */}
+        <div className="post1">
+          <img className="img30" src={post30} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Luxury Lashes Magnetic </h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$45</div>
+            </div>
+            <div class="bought">262 bought</div>
+          </div>
+        </div>
+      </div>
+    
+      <br />
+      <br />
+      <br /> 
+      <br />
+      <br />
+      <br />
+      {/* House & Garden   */}
+      <div className="featured">
+        <h1 className="h1feature">House & Garden   </h1>
+        <a className="view">
+          View More{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-chevron-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </a>
+      </div>
+      {/* posts House & Garden  */}
+      <div className="fll2">
+        {/* post 31*/}
+
+        <div className="post2">
+          <img className="img31" src={post31} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Vienna Balcony Furniture Set</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$365</div>
+            </div>
+            <div class="bought">8 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 32 */}
+        <div className="post1">
+          <img className="img32" src={post32} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Portable Mini Vacuum Cleaner</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$22</div>
+            </div>
+            <div class="bought">5 bought</div>
+          </div>
+        </div>
+
+        {/* post 33 */}
+
+        <div className="post2">
+          <img className="img33" src={post33} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Ergonomic Latex Pillow</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$11</div>
+            </div>
+            <div class="bought">22 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 34 */}
+        <div className="post1">
+          <img className="img34" src={post34} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Gaming Table Z8 </h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$195</div>
+            </div>
+            <div class="bought">1 bought</div>
+          </div>
+        </div>
+      </div>
+
+
+      <br />
+      <br />
+      <br /> 
+      <br />
+      <br />
+      <br />
+      {/* Fitness & Sports   */}
+      <div className="featured">
+        <h1 className="h1feature">Fitness & Sports  </h1>
+        <a className="view">
+          View More{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-chevron-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </a>
+      </div>
+      {/* posts Fitness & Sports */}
+      <div className="fll2">
+        {/* post 35*/}
+
+        <div className="post2">
+          <img className="img35" src={postt35} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Fitness Waist Trainer Belt</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$20</div>
+            </div>
+            <div class="bought">1 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 36 */}
+        <div className="post1">
+          <img className="img36" src={post36} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Rechargeable Ultra Bright LED</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$19</div>
+            </div>
+            <div class="bought">11 bought</div>
+          </div>
+        </div>
+
+        {/* post 37 */}
+
+        <div className="post2">
+          <img className="img37" src={post37} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">One Session of Squash</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$15</div>
+            </div>
+            <div class="bought">50 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 38 */}
+        <div className="post1">
+          <img className="img38" src={post38} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">High Grade Golf Ball</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$55</div>
+            </div>
+            <div class="bought">4 bought</div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br /> 
+      <br />
+      <br />
+      <br />
+      {/* Automotive    */}
+      <div className="featured">
+        <h1 className="h1feature">Automotive  </h1>
+        <a className="view">
+          View More{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-chevron-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </a>
+      </div>
+      {/* posts Automotive */}
+      <div className="fll2">
+        {/* post 39*/}
+
+        <div className="post2">
+          <img className="img39" src={post39} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">Brake Pad Replacement</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$59</div>
+            </div>
+            <div class="bought">3 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 40 */}
+        <div className="post1">
+          <img className="img40" src={post40} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">Pair of Vehicle Recovery 4x4...</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$199</div>
+            </div>
+            <div class="bought">2 bought</div>
+          </div>
+        </div>
+
+        {/* post 41 */}
+
+        <div className="post2">
+          <img className="img41" src={post41} />
+          <div className="info">
+            <br />
+            <h3 className="h2h">A5 Tyre Inflating Gun</h3>
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$13</div>
+            </div>
+            <div class="bought">26 bought</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        {/* post 42 */}
+        <div className="post1">
+          <img className="img42" src={post42} />
+          <div className="info">
+            <br />
+
+            <h3 className="h2h">High-Pressure Car Foam Washer</h3>
+
+            <br />
+            <div class="price">
+              <div>from</div>
+              <div>$24</div>
+            </div>
+            <div class="bought">3 bought</div>
+          </div>
+        </div>
+      </div>
+
+
+      
+
+
+
+
+
+
+
+      
       {/* footer1 */}
       <br />
       <br />
