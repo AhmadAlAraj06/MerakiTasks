@@ -45,67 +45,31 @@ body {
   width: 80px;
   height: auto;
   cursor: pointer;
-  margin-left: 70%;
 }
-.subscribe {
-  margin-top: -5vh;
+
+.headericon{
+  display: flex;
+  margin-top: -3%;
+  margin-right: 7%;
+  gap: 11px;
+  justify-content: right;
+}
+
+
+
+.icon {
   cursor: pointer;
-  margin-left: 77%;
   color: white;
+  margin-top: 0.7%;
 }
 .sub {
   cursor: pointer;
-  margin-top: -2.7vh;
   color: white;
-  margin-left: 79.5%;
-}
-.down {
-  cursor: pointer;
-  margin-top: -3.2vh;
-  color: white;
-  margin-left: 74%;
-}
-.font {
-  margin-top: -4vh;
-  cursor: pointer;
-  color: white;
-  margin-left: 72%;
-}
-.cart {
-  cursor: pointer;
-  margin-top: -4vh;
-  color: white;
-  margin-left: 68.5%;
-}
-.heart {
-  cursor: pointer;
-  margin-top: -4vh;
-  color: white;
-  margin-left: 64.5%;
-}
-.geo {
-  cursor: pointer;
-  margin-top: -4vh;
-  color: white;
-  margin-left: 55%;
-}
-.auckland {
-  cursor: pointer;
-  margin-top: -3vh;
-  color: white;
-  margin-left: 57%;
-}
-.down2 {
-  cursor: pointer;
-  margin-top: -3.5vh;
-  color: white;
-  margin-left: 61.5%;
+  margin-top: 0.9%;
 }
 .vl {
   border-left: 1px solid rgb(255, 255, 255);
-  margin-left: 85.5%;
   height: 45px;
-  margin-top: -6vh;
 }
 /* </hardcode1> */
 
@@ -116,15 +80,9 @@ body {
   /* For mobile phones: */
   [class*="powerd"],
   [class*="vl"],
-  [class*="subscribe"],
-  [class*="down"],
-  [class*="font"],
-  [class*="cart"],
-  [class*="heart"],
-  [class*="geo"],
-  [class*="sub"],
-  [class*="list"],
-  [class*="auckland"] {
+  [class*="list"],  
+  [class*="sub"],  
+  [class*="icon"] {
     display: none;
   }
 }
