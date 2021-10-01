@@ -64,6 +64,7 @@ const Header = () => {
         <img className="powerd" src={powerd} />
         <div class="vl"></div>
         {/* <div className="header22"> */}
+        <div className="headericon">
 
         <div className="subscribe">
           <svg
@@ -191,6 +192,7 @@ const Header = () => {
 
         <div class="auckland">Auckland</div>
         <div class="sub">Subscribe</div>
+          </div>
       </div>
       {/* header 2 */}
       <div className="header2">
@@ -210,7 +212,7 @@ const Header = () => {
           <div className="Search2">Home</div>
         </div>
 
-        <div className="search">
+        <div className="nav2nav">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="26"
@@ -225,7 +227,7 @@ const Header = () => {
           <div className="Search2">Search</div>
         </div>
 
-        <div className="category">
+        <div className="nav2nav">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="26"
@@ -240,7 +242,7 @@ const Header = () => {
           <div className="cat">Categories</div>
         </div>
 
-        <div className="shop">
+        <div className="nav2nav">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="26"
@@ -255,7 +257,7 @@ const Header = () => {
           <div className="Search22">Shop</div>
         </div>
 
-        <div className="peerson">
+        <div className="nav2nav">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"

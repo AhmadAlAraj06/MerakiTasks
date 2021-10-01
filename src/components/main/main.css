@@ -13,8 +13,8 @@ body {
 .header {
   height: 60px;
   width: 101.2%;
-  margin-left: -1.4vh;
-  margin-top: -1.1vh;
+  top: 0;
+  left: 0;
   background-color: #01b2ee;
   position: fixed;
 }
@@ -128,7 +128,54 @@ body {
     display: none;
   }
 }
+@media only screen and (max-width: 1070px) {
+  /* For mobile phones: */
 
+  [class*="nav2nav"] {
+    margin-left: 16% !important;
+}
+}
+  @media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+  
+    [class*="nav2nav"] {
+      margin-left: 14% !important;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    /* For mobile phones: */
+  
+    [class*="nav2nav"] {
+      margin-left: 12% !important;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    /* For mobile phones: */
+  
+    [class*="nav2nav"] {
+      margin-left: 10% !important;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+  
+    [class*="nav2nav"] {
+      margin-left: 8% !important;
+    }
+  }  @media only screen and (max-width: 350px) {
+    /* For mobile phones: */
+  
+    [class*="nav2nav"] {
+      margin-left: 6% !important;
+    }
+  }  @media only screen and (max-width: 300px) {
+    /* For mobile phones: */
+  
+    [class*="nav2nav"] {
+      margin-left: 4% !important;
+    }
+  }
+  
 .dropbtn {
   background-color: #4caf50;
   color: white;
@@ -179,6 +226,7 @@ body {
   margin-left: -1.4vh;
   bottom: 0;
   position: fixed;
+  display: flex;
 }
 
 /* <easycode2> */
@@ -198,26 +246,10 @@ color:white;
   margin-left: 8%;
   cursor: pointer;
 }
-.search {
-  margin-left: 28%;
-  margin-top: -6.5vh;
 
+.nav2nav {
   cursor: pointer;
-}
-.category {
-  margin-left: 48%;
-  cursor: pointer;
-  margin-top: -6.5vh;
-}
-.shop {
-  margin-left: 68%;
-  cursor: pointer;
-  margin-top: -7vh;
-}
-.peerson {
-  margin-left: 88%;
-  cursor: pointer;
-  margin-top: -7vh;
+  margin-left: 18%;
 }
 .cat {
   margin-left: -3vh;
