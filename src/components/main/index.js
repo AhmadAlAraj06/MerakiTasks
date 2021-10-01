@@ -63,147 +63,139 @@ const Header = () => {
 
         {/* <div className="header22"> */}
         <div className="headericon">
-
-        <div className="icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="26"
-            fill="currentColor"
-            class="bi bi-geo-alt"
-            viewBox="0 0 16 16"
-          >
-            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
-            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-          </svg>
-        </div>
-        <div class="sub">Auckland</div>
-
-        <div className="sub">
-          <div class="dropdown">
+          <div className="icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
+              width="26"
+              height="26"
               fill="currentColor"
-              class="bi bi-chevron-down"
+              class="bi bi-geo-alt"
               viewBox="0 0 16 16"
             >
-              <path
-                fill-rule="evenodd"
-                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-              />
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
             </svg>
-            <div class="dropdown-content">
-              <a href="#">Auckland</a>
-              <a href="#">Waikato</a>
-              <a href="#">Wellington</a>
-              <a href="#">Northland</a>
-              <a href="#">Manawatu - Wanganui</a>
-              <a href="#">Tauranga</a>
-              <a href="#">Rotorua - Taupo</a>
-              <a href="#">Hawkes Bay</a>
-              <a href="#">Christchurch</a>
-              <a href="#">Taranaki</a>
-              <a href="#">Nelson - Marlborough</a>
-              <a href="#">Queenstown - Wanaka</a>
-              <a href="#">Dunedin - Invercargill</a>
+          </div>
+          <div class="sub">Auckland</div>
+
+          <div className="sub">
+            <div class="dropdown">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-down"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+              <div class="dropdown-content">
+                <a href="#">Auckland</a>
+                <a href="#">Waikato</a>
+                <a href="#">Wellington</a>
+                <a href="#">Northland</a>
+                <a href="#">Manawatu - Wanganui</a>
+                <a href="#">Tauranga</a>
+                <a href="#">Rotorua - Taupo</a>
+                <a href="#">Hawkes Bay</a>
+                <a href="#">Christchurch</a>
+                <a href="#">Taranaki</a>
+                <a href="#">Nelson - Marlborough</a>
+                <a href="#">Queenstown - Wanaka</a>
+                <a href="#">Dunedin - Invercargill</a>
+              </div>
             </div>
           </div>
-        </div>
-        <br/>
-        <div className="icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="26"
-            fill="currentColor"
-            class="bi bi-heart"
-            viewBox="0 0 16 16"
-          >
-            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
-          </svg>
-        </div>    
-        <br/>
-           <div className="icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="26"
-            fill="currentColor"
-            class="bi bi-cart"
-            viewBox="0 0 16 16"
-          >
-            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-          </svg>
-        </div>
-        <br/>
-
-        <div className="icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="26"
-            fill="currentColor"
-            class="bi bi-person"
-            viewBox="0 0 16 16"
-          >
-            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-          </svg>
-        </div>
-        <div className="sub">
-          <div class="dropdown">
+          <br />
+          <div className="icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
+              width="26"
+              height="26"
               fill="currentColor"
-              class="bi bi-chevron-down"
+              class="bi bi-heart"
               viewBox="0 0 16 16"
             >
-              <path
-                fill-rule="evenodd"
-                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-              />
+              <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
             </svg>
-            <div class="dropdown-content">
-              <a href="#">My Account</a>
-              <a href="#">Gifts</a>
-              <a href="#">Profile</a>
-              <a href="#">My Subscriptions</a>
-              <a href="#">My Purchases</a>
-              <a href="#">Login</a>
+          </div>
+          <br />
+          <div className="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-cart"
+              viewBox="0 0 16 16"
+            >
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+            </svg>
+          </div>
+          <br />
+
+          <div className="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-person"
+              viewBox="0 0 16 16"
+            >
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+            </svg>
+          </div>
+          <div className="sub">
+            <div class="dropdown">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-down"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+              <div class="dropdown-content">
+                <a href="#">My Account</a>
+                <a href="#">Gifts</a>
+                <a href="#">Profile</a>
+                <a href="#">My Subscriptions</a>
+                <a href="#">My Purchases</a>
+                <a href="#">Login</a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <br/>
+          <br />
 
-        <div className="icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="26"
-            fill="currentColor"
-            class="bi bi-envelope"
-            viewBox="0 0 16 16"
-          >
-            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-          </svg>
-        </div>
-
-   
-
- 
-   
-     
-
-
-        <div class="sub">Subscribe</div>
-        <div class="vl"></div>
-        <img className="powerd" src={powerd} />
-<br/>
+          <div className="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-envelope"
+              viewBox="0 0 16 16"
+            >
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+            </svg>
           </div>
+
+          <div class="sub">Subscribe</div>
+          <div class="vl"></div>
+          <img className="powerd" src={powerd} />
+          <br />
+        </div>
       </div>
       {/* header 2 */}
       <div className="header2">
@@ -471,13 +463,13 @@ const Header = () => {
       </div>
       <br />
       <br />
-      <br /> 
+      <br />
       <br />
       <br />
       <br />
       {/* Collections     */}
       <div className="featured">
-        <h1 className="h1feature">Collections   </h1>
+        <h1 className="h1feature">Collections </h1>
         <a className="view">
           View More{" "}
           <svg
@@ -501,7 +493,6 @@ const Header = () => {
 
         <div className="post2">
           <img className="img43" src={post43} />
-     
         </div>
         <br />
         <br />
@@ -510,14 +501,12 @@ const Header = () => {
         {/* post 44 */}
         <div className="post1">
           <img className="img44" src={post44} />
-      
         </div>
 
         {/* post 45 */}
 
         <div className="post2">
           <img className="img45" src={post45} />
-     
         </div>
         <br />
         <br />
@@ -526,7 +515,6 @@ const Header = () => {
         {/* post 46 */}
         <div className="post1">
           <img className="img46" src={post46} />
-     
         </div>
       </div>
       <br />
@@ -609,7 +597,7 @@ const Header = () => {
       </div>
       <br />
       <br />
-      <br /> 
+      <br />
       <br />
       <br />
       <br />
@@ -709,7 +697,7 @@ const Header = () => {
       </div>
       <br />
       <br />
-      <br /> 
+      <br />
       <br />
       <br />
       <br />
@@ -809,7 +797,7 @@ const Header = () => {
       </div>
       <br />
       <br />
-      <br /> 
+      <br />
       <br />
       <br />
       <br />
@@ -909,13 +897,13 @@ const Header = () => {
       </div>
       <br />
       <br />
-      <br /> 
+      <br />
       <br />
       <br />
       <br />
       {/* Restaurants, Bars, Cafes   */}
       <div className="featured">
-        <h1 className="h1feature">Restaurants, Bars, Cafes  </h1>
+        <h1 className="h1feature">Restaurants, Bars, Cafes </h1>
         <a className="view">
           View More{" "}
           <svg
@@ -1009,13 +997,13 @@ const Header = () => {
       </div>
       <br />
       <br />
-      <br /> 
+      <br />
       <br />
       <br />
       <br />
       {/* Beauty, Massage & Spa    */}
       <div className="featured">
-        <h1 className="h1feature">Beauty, Massage & Spa   </h1>
+        <h1 className="h1feature">Beauty, Massage & Spa </h1>
         <a className="view">
           View More{" "}
           <svg
@@ -1107,16 +1095,16 @@ const Header = () => {
           </div>
         </div>
       </div>
-    
+
       <br />
       <br />
-      <br /> 
+      <br />
       <br />
       <br />
       <br />
       {/* House & Garden   */}
       <div className="featured">
-        <h1 className="h1feature">House & Garden   </h1>
+        <h1 className="h1feature">House & Garden </h1>
         <a className="view">
           View More{" "}
           <svg
@@ -1209,16 +1197,15 @@ const Header = () => {
         </div>
       </div>
 
-
       <br />
       <br />
-      <br /> 
+      <br />
       <br />
       <br />
       <br />
       {/* Fitness & Sports   */}
       <div className="featured">
-        <h1 className="h1feature">Fitness & Sports  </h1>
+        <h1 className="h1feature">Fitness & Sports </h1>
         <a className="view">
           View More{" "}
           <svg
@@ -1313,13 +1300,13 @@ const Header = () => {
 
       <br />
       <br />
-      <br /> 
+      <br />
       <br />
       <br />
       <br />
       {/* Automotive    */}
       <div className="featured">
-        <h1 className="h1feature">Automotive  </h1>
+        <h1 className="h1feature">Automotive </h1>
         <a className="view">
           View More{" "}
           <svg
@@ -1412,16 +1399,6 @@ const Header = () => {
         </div>
       </div>
 
-
-      
-
-
-
-
-
-
-
-      
       {/* footer1 */}
       <br />
       <br />
