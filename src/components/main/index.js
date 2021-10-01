@@ -52,6 +52,7 @@ import post43 from "./postt43.png";
 import post44 from "./postt44.png";
 import post45 from "./postt45.png";
 import post46 from "./postt46.png";
+import footerr from "./footer.png";
 
 const Header = () => {
   return (
@@ -1521,7 +1522,7 @@ const Header = () => {
           target="_blank"
           rel="noopener"
         >
-          <img src="//new-cdn.grabone.co.nz/static/img/icon/powered_by_nzme_long.d08e62aa63ff.png" />
+          <img src={footerr} />
         </a>
       </div>
       <br />
