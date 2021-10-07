@@ -377,6 +377,22 @@ color:white;
   margin-top: -4vh;
   margin-left: 3vh;
 }
+
+/* easy code */
+
+/* .imggg333 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+ .imggg333:hover {
+  content: url("./post33.png");
+}    */
+
+/* hard code */
+/* from img 1 to 46 is hard code we put one class like the code in the top */
+
 .img1 {
   width: 100%;
   height: auto;

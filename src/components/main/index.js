@@ -1,4 +1,5 @@
 /* i have start coding with wrong way i have code hardcode and i understand the mistake that i doit after i finish the half of the project
+i have write easy code in top of the hard code and i comittit
  */
 
 import React from "react";
@@ -55,6 +56,26 @@ import post46 from "./postt46.png";
 import footerr from "./footer.png";
 
 const Header = () => {
+  // easy code
+
+  // sentence for post maping
+
+  //   const data = [{
+  //     image : post3,
+  //     imagee1 : post7,
+  //     title: "Dental Service Treatment",
+  //     bought: "2 bought",
+  //     price: "$35",
+
+  // },
+  // {
+  //     image: post4,
+  //     title: "aaaaaaaaaaaaaaaaaaaa",
+  //     bought: "1 bought",
+  //     price: "$1",
+  // },
+
+  // ]
   return (
     <div className="App">
       {/* header 1 */}
@@ -308,6 +329,37 @@ const Header = () => {
           <h4 className="h3h3">Fitness & Sports</h4>
           <h4 className="h3h3">Automotive</h4>
         </div>
+
+        {/* easy code */}
+        {/* making maping of post */}
+        {/* 
+      <div className="mainPage">
+            <div className="card">
+                <p className="headerText">Featured Auckland deals  </p>
+                <button className="View"> View More... </button>
+            </div>
+            <div className="fll2">
+                {data && data.map((elemant, i) => {
+                    return (
+                        <div className="post2">
+                            <div class="container2">
+                                <img  className="imggg333" src={elemant.image} hoverSrc={elemant.imagee1} />
+                            </div>
+                            <div class="info">
+                            <h2 className="h2h">{elemant.title}</h2>
+                                <p className="bought">{elemant.bought}</p>
+                                <p className="price">from</p>
+                                <p className="price">{elemant.price}</p>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+            </div> */}
+
+        {/* hard code */}
+
+        {/* from post 1 to 46 is hard code we put one class like the code in the top */}
 
         {/* post 1 */}
         <div className="post2">
